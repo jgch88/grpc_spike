@@ -1,0 +1,22 @@
+// https://developers.google.com/protocol-buffers/docs/style
+syntax = "proto3";
+
+package uber;
+
+service LocationService {
+  rpc sendLocations (LocationPayload) returns (LocationResponse) {}
+}
+
+message LocationPayload {
+  repeated Location locations = 1;
+}
+
+message Location {
+  float latitude = 1;
+  float longitude = 2;
+  int32 timestamp = 3;
+}
+
+message LocationResponse {
+  repeated int32 timestamps = 1;
+}

@@ -1,0 +1,9 @@
+[
+  { "latitude": 101.3, "longitude": 56.3, "timestamp": 1 },
+  { "latitude": 100.3, "longitude": 56.3, "timestamp": 2 },
+  { "latitude": 100.6, "longitude": 56.2, "timestamp": 3 },
+  { "latitude": 100.3, "longitude": 57.1, "timestamp": 4 },
+  { "latitude": 100.1, "longitude": 58.3, "timestamp": 5 },
+  { "latitude": 101.2, "longitude": 57.3, "timestamp": 6 },
+  { "latitude": 102.3, "longitude": 56.4, "timestamp": 7 }
+]

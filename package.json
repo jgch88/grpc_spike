@@ -1,0 +1,21 @@
+{
+  "name": "grpc_spike",
+  "version": "1.0.0",
+  "description": "## Goals Set up client / server Compare payload sizes with JSON",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@jgch88.github.com:jgch88/grpc_spike"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.5.4",
+    "grpc": "^1.24.2"
+  }
+}
